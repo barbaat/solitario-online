@@ -1,0 +1,33 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>15</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>660</x><y>120</y><w>315</w><h>165</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+User
+--
+-username:String{NotEmpty}
+-password:String
+-enabled:boolean
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>120</y><w>315</w><h>240</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+Jugador
+--
+-partidasJugadas:int
+-partidasGanadas:int
+-partidasNoGanadas:int
+-totalTiempoJugado:int
+-numTotalMovimientos:int
+-numTotalPuntos:int
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>180</y><w>210</w><h>75</h></coordinates><panel_attributes>m1=1
+m2=1
+Es registrado &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>480</y><w>315</w><h>195</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+Logros
+--
+-Nombre:String
+-Descripcion: String
+-Desbloqueado:Boolean
+-Imagen:String
+-numCondicion:Integer
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>345</y><w>135</w><h>165</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+consigue &gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
