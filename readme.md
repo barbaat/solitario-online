@@ -1,6 +1,7 @@
  
 # Proyecto SOLITARIO - GRUPO L5-3
 
+Esta es una copia del proyecto original, para poder ver mis contribuciones en el proyecto haga click en el link del repositorio.
 
 
 - Repositorio: https://github.com/gii-is-DP1/dp1-2022-2023-l5-3.git
